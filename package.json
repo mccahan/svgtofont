@@ -21,7 +21,7 @@
     "svgtofont": "lib/cli.js"
   },
   "scripts": {
-    "prepare": "npm run build",
+    "prepublishOnly": "npm run build",
     "start": "node lib/index.js",
     "watch": "tsbb watch src/*.ts",
     "build": "tsbb build src/*.ts",

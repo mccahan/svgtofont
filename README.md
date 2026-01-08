@@ -129,6 +129,16 @@ npm i svgtofont
 > import svgtofont from 'svgtofont';
 > ```
 
+#### Using With npx (No Installation Required)
+
+You can use `svgtofont` directly with `npx` without installing it:
+
+```bash
+npx svgtofont --sources ./svg --output ./font --fontName uiw-font
+```
+
+This is useful for one-time usage or trying out the tool without adding it to your project dependencies.
+
 #### Using With Command
 
 ```json
